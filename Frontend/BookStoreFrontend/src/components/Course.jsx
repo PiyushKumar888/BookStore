@@ -9,7 +9,7 @@ export const Course = () => {
     useEffect(()=>{
         const getBooks = async () => {
             try {
-                const res = await axios.get("https://bookstore-1-ltqp.onrender.com/api/books");
+                const res = await axios.get("https://bookstore-2-juvs.onrender.com/api/books");
                 setBooks(res.data.data);
             } catch (e) {
                 console.log(e)
