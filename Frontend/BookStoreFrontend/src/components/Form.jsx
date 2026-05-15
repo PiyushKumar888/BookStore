@@ -13,9 +13,10 @@ export const Form = ({val,setval}) =>{
 
     const onSubmit = async (data) =>{
        try{
+           const baseURL = "https://bookstore-1-ltqp.onrender.com";
            const url = val ==='Signup'
-               ? "http://localhost:4001/api/user/signup"
-               : "http://localhost:4001/api/user/login";
+               ? `${baseURL}/api/user/signup`
+               : `${baseURL}/api/user/login`;
            const userdata =
                val === "Signup"
                    ? {
