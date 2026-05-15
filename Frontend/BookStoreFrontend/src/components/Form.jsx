@@ -13,7 +13,7 @@ export const Form = ({val,setval}) =>{
 
     const onSubmit = async (data) =>{
        try{
-           const baseURL = "https://bookstore-1-ltqp.onrender.com";
+           const baseURL = "https://bookstore-2-juvs.onrender.com";
            const url = val ==='Signup'
                ? `${baseURL}/api/user/signup`
                : `${baseURL}/api/user/login`;
