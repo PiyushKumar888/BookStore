@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 3001;
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-    origin:[""https://book-store-mu-orpin.vercel.app""],
+    origin:["https://book-store-mu-orpin.vercel.app"],
     credentials: true
 }))
 
