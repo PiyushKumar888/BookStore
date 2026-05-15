@@ -16,7 +16,7 @@ export const FreeBook = () =>{
     useEffect(()=>{
         const getBooks = async () => {
             try {
-                const res = await axios.get(`"https://bookstore-1-ltqp.onrender.com/api/books"`);
+                const res = await axios.get("https://bookstore-1-ltqp.onrender.com/api/books");
                 console.log("res"+res);
                 console.log("res.data="+res.data);
                 setBooks(res.data.data);
