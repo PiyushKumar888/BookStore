@@ -9,7 +9,9 @@ export const Course = () => {
     useEffect(()=>{
         const getBooks = async () => {
             try {
-                const res = await axios.get(`http://localhost:4001/api/books`);
+                const res = await axios.get( `${import.meta.env.VITE_BACKEND_LINK}/api/books`,{
+                    withCredentials: true
+                });
                 setBooks(res.data.data);
             } catch (e) {
                 console.log(e)

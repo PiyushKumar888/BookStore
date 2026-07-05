@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Atomic Habits",
+    "title": "Build Better Habits and Improve Everyday Life",
+    "price": 499,
+    "category": "Free",
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794"
+  },
+  {
+    "name": "Deep Work",
+    "title": "Focused Success in a Distracted World",
+    "price": 399,
+    "category": "Free",
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794"
+  },
+  {
+    "name": "JavaScript Essentials",
+    "title": "A Beginner Friendly Guide to Modern JavaScript",
+    "price": 0,
+    "category": "Free",
+    "image": "https://images.unsplash.com/photo-1516979187457-637abb4f9353"
+  },
+  {
+    "name": "React for Beginners",
+    "title": "Learn Components, Hooks, and Routing",
+    "price": 0,
+    "category": "Free",
+    "image": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d"
+  },
+  {
+    "name": "Node.js Mastery",
+    "title": "Backend Development with Express and MongoDB",
+    "price": 599,
+    "category": "Paid",
+    "image": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da"
+  },
+  {
+    "name": "MongoDB Basics",
+    "title": "Database Design and CRUD Operations",
+    "price": 299,
+    "category": "Free",
+    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4"
+  },
+  {
+    "name": "CSS Masterclass",
+    "title": "Responsive Design with Flexbox and Grid",
+    "price": 199,
+    "category": "Free",
+    "image": "https://images.unsplash.com/photo-1507842217343-583bb7270b66"
+  },
+  {
+    "name": "Data Structures in Java",
+    "title": "Master Arrays, Linked Lists, Trees and Graphs",
+    "price": 799,
+    "category": "Paid",
+    "image": "https://images.unsplash.com/photo-1513258496099-48168024aec0"
+  },
+  {
+    "name": "Python Crash Course",
+    "title": "Quick Start Guide to Python Programming",
+    "price": 0,
+    "category": "Free",
+    "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f"
+  },
+  {
+    "name": "Machine Learning Intro",
+    "title": "Understanding AI and Machine Learning Basics",
+    "price": 999,
+    "category": "Paid",
+    "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570"
+  }
+]

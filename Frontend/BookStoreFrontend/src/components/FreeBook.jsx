@@ -16,7 +16,9 @@ export const FreeBook = () =>{
     useEffect(()=>{
         const getBooks = async () => {
             try {
-                const res = await axios.get(`http://localhost:4001/api/books`);
+                const res = await axios.get(`${import.meta.env.VITE_BACKEND_LINK}/api/books`,{
+                    withCredentials: true
+                });
                 console.log("res"+res);
                 console.log("res.data="+res.data);
                 setBooks(res.data.data);

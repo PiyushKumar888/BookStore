@@ -13,9 +13,10 @@ export const Form = ({val,setval}) =>{
 
     const onSubmit = async (data) =>{
        try{
+           const baseURL =  `${import.meta.env.VITE_BACKEND_LINK}`;
            const url = val ==='Signup'
-               ? "http://localhost:4001/api/user/signup"
-               : "http://localhost:4001/api/user/login";
+               ? `${baseURL}/api/user/signup`
+               : `${baseURL}/api/user/login`;
            const userdata =
                val === "Signup"
                    ? {
@@ -27,7 +28,9 @@ export const Form = ({val,setval}) =>{
                        email: data.email,
                        password: data.password,
                    };
-           const res = await axios.post(url, userdata)
+           const res = await axios.post(url, userdata ,{
+               withCredentials: true
+           })
            if (res.data.success && val === "Signup") {
                toast.success("Signup successful, please login");
                setval("Login");

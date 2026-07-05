@@ -6,14 +6,14 @@ const app = express();
 import cors from "cors";
 import connectDB from "./db/db.js";
 import bookRoutes from "../src/routes/Book.routes.js";
-import userRoutes from "../src/routes/User.routes.js";
+import userRoutes from "../src/routes/user.routes.js";
 
 const PORT = process.env.PORT || 3001;
 
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-    origin: `http://localhost:5173`,
+    origin: process.env.ORIGIN,
     credentials: true
 }))
 
