@@ -3,6 +3,10 @@
 A full-stack Book Store web application built using the MERN stack. The platform allows users to browse books, create an account, log in securely, and explore both free and premium books through a clean, responsive interface.
 
 ---
+## 🚀 Live Demo
+
+- 🌐 Frontend: https://book-store-taupe-sigma.vercel.app
+- ⚙️ Backend API: https://bookstore-c1nc.onrender.com
 
 ## 📸 Preview
 
