@@ -8,23 +8,23 @@ A full-stack Book Store web application built using the MERN stack. The platform
 
 ### Home Page
 
-![Home](public/assets/Home1.png)
+![Home](BookStoreProject/Frontend/BookStoreFrontend/public/assets/Home1.png)
 
 ### Home Page
 
-![Home](public/assets/Home2.png)
+![Home](BookStoreProject/Frontend/BookStoreFrontend/public/assets/Home2.png)
 
 ### Courses
 
-![Courses](public/assets/Courses.png)
+![Courses](BookStoreProject/Frontend/BookStoreFrontend/public/assets/Courses.png)
 
 ### Login
 
-![Login](public/assets/Login.png)
+![Login](BookStoreProject/Frontend/BookStoreFrontend/public/assets/Login.png)
 
 ### Contact Us
 
-![Contact Us](public/assets/ContactUs.png)
+![Contact Us](BookStoreProject/Frontend/BookStoreFrontend/public/assets/ContactUs.png)
 
 ---
 
